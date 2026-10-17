@@ -1,7 +1,5 @@
 # PBSA Logistics API 🚛
 
-[![PBSA API CI Pipeline](https://github.com/YOUR-USERNAME/pbsa-logistics-api/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-USERNAME/pbsa-logistics-api/actions/workflows/ci.yml)
-
 Backend REST API for the PBSA Logistics Android mobile application. 
 
 ## 📖 Project Overview
@@ -22,7 +20,7 @@ This API serves as the backend infrastructure for the PBSA Logistics mobile app.
 ## 🌐 Live Deployment
 The API is currently hosted on **Railway** and connected to a **Neon PostgreSQL** database.
 
-* **Live Base URL:** `<https://pbsa-logistics-api-production.up.railway.app/>` *(e.g., https://pbsa-logistics-api-production.up.railway.app)*
+* **Live Base URL:** `<YOUR-RAILWAY-URL>` *(https://pbsa-logistics-api-production.up.railway.app/)*
 * **Status Check:** Append `/` to the base URL to verify the server is running.
 
 ---
