@@ -48,7 +48,7 @@ This API is the backend for the PBSA Logistics mobile app. It provides:
 
 Hosted on **Railway**, connected to a **Neon PostgreSQL** database.
 
-- **Base URL:** (https://pbsa-logistics-api-production.up.railway.app)
+- **Base URL:** https://pbsa-logistics-api-production.up.railway.app
 - **Health check:** send a `GET` request to the base URL (`/`) to confirm the server is running.
 
 ```bash
