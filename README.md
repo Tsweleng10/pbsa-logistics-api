@@ -39,8 +39,8 @@ This API is the backend for the PBSA Logistics mobile app. It provides:
 |---|---|---|
 | Raesibe Kate Galane | ST10450352 | Project Manager / UI-UX Designer |
 | Fortune Pheagane Lemekwana | ST10450241 | Frontend Web Developer |
-| Joshua Regaugetswe Tsweleng | ST10451745 | Android Developer / QA Tester |
-| Phuti Magwai | ST10452585 | Backend Developer |
+| Joshua Regaugetswe Tsweleng | ST10451745 | Backend Developer / QA Tester |
+| Phuti Magwai | ST10452585 | Android Developer |
 
 ---
 
@@ -76,7 +76,7 @@ curl <YOUR-RAILWAY-URL>/
 
 ### Prerequisites
 
-- Node.js v20 or higher
+- Node.js v24 or higher
 - A PostgreSQL database (a free [Neon](https://neon.tech) project works)
 
 ### Installation
@@ -84,7 +84,7 @@ curl <YOUR-RAILWAY-URL>/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/pbsa-logistics-api.git
+   git clone https://github.com/Tsweleng10/pbsa-logistics-api.git
    cd pbsa-logistics-api
    ```
 
