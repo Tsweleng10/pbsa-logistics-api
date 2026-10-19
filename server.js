@@ -20,6 +20,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/loads', require('./routes/loads'));
 app.use('/api/eld', require('./routes/eld'));
 app.use('/api/alerts', require('./routes/alerts'));
+app.use('/api/quotes', require('./routes/quotes'));
 
 // ── 404 handler (unknown route)
 app.use((req, res) => {
