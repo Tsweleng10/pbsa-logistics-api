@@ -85,4 +85,16 @@ router.get('/my', requireAuth, async (req, res, next) => {
   }
 });
 
+// GET /api/eld/all (Dispatchers only)
+router.get('/all', requireAuth, requireRole('DISPATCHER', 'ADMIN'), async (req, res, next) => {
+  try {
+    const result = await db.query(
+      `SELECT e.*, u.full_name as driver_name 
+       FROM eld_logs e 
+       JOIN users u ON e.driver_id = u.id 
+       ORDER BY e.start_time DESC LIMIT 20`
+    );
+    res.json(result.rows);
+  } catch (err) { next(err); }
+});
 module.exports = router;
